@@ -2507,10 +2507,7 @@ Elm.Native.Sha.make = function(elm) {
   }
 
   function update(data, inputEncoding, algorithm) {
-    console.log("a data = " + data + ", inputEncoding = " + inputEncoding + ", algorithm = " + algorithm);
-    u = algorithm.update(data, inputEncoding);
-    console.log("b");
-    return u;
+    return algorithm.update(data, inputEncoding);
   }
 
   function digest(encoding, hash) {
