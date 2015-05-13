@@ -1,5 +1,3 @@
-var createHash = require('sha.js');
-
 Elm.Native.Sha = {};
 Elm.Native.Sha.make = function(elm) {
   elm.Native = elm.Native || {};
@@ -17,7 +15,7 @@ Elm.Native.Sha.make = function(elm) {
   }
 
   return Elm.Native.Sha.values = {
-    createHash: createHash,
+    createHash: require('sha.js'),
     update: F3(update),
     digest: F2(digest)
   };
