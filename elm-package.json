@@ -1,5 +1,5 @@
 {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "summary": "sha.js wrapper for Elm.",
     "repository": "https://github.com/koyachi/elm-sha.git",
     "license": "BSD3",
@@ -9,7 +9,7 @@
     "exposed-modules": [
         "Sha"
     ],
-    "native-modules" : true,
+    "native-modules": true,
     "dependencies": {
         "elm-lang/core": "2.0.1 <= v < 3.0.0"
     },
