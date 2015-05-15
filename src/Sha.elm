@@ -2,10 +2,10 @@ module Sha where
 {-|
 
 # Definition
-@doc Hash
+@docs Hash
 
 # Function
-@doc createHash, update, digest
+@docs createHash, update, digest
 -}
 
 import Native.Sha
