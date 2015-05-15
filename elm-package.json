@@ -9,6 +9,7 @@
     "exposed-modules": [
         "Sha"
     ],
+    "native-modules" : true,
     "dependencies": {
         "elm-lang/core": "2.0.1 <= v < 3.0.0"
     },
